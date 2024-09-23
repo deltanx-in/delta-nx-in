@@ -1,0 +1,99 @@
+/*  */
+section, .section {
+    color: var(--black);
+    background-color: var(--white);
+    padding: 60px 0;
+    scroll-margin-top: 100px;
+    overflow: clip;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+/* Content */
+.contact .info-item+.info-item {
+    margin-top: 40px;
+}
+
+.contact .info-item i {
+    color: var(--white);
+    background: var(--primary);
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+.contact .info-item h3 {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/*  */
+.product .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/*  */
+.about-alt .content h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.about-alt .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-alt .content ul li {
+    padding: 10px 0 0 0;
+    display: flex;
+}
+
+.about-alt .content ul i {
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
+
+.about-alt .content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Banner */
+.welcome-banner{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
